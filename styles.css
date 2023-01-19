@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+html, 
 body {
+    width: 100%;
+    overflow-x: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* HEADER START */
 .header {
     background-color: #1f2937;
 }
@@ -17,9 +21,9 @@ body {
 }
 
 .header-link {
+    margin: 10px;
     font-size: 18px;
     color: #E5E7EB;
-    margin: 10px;
 }
 
 .navbar {
@@ -29,67 +33,87 @@ body {
 
 ul {
     display: flex;
-    flex-direction: row;
     list-style: none;
+    flex-direction: row;
 }
 
 .navbar-left,
 .navbar-right {
-    display: flex;
     width: 50%;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-h1 {
+.header-content h1 {
     font-size: 48px;
-    font-weight: bolder;
     color: #F9FAF8;
+    font-weight: bolder;
+    
 }
 
 .header-content {
+    margin: 50px;
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    
 }
 
 .content-right {
+    width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    justify-content: center;
+    
 }
 
 .content-left {
-    display: flex;
-    flex-direction: column;
     width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-left: 150px;
-
-
 }
 
-.img {
-    height: 250px;
-    width: 500px;
-    margin-bottom: 50px;
+.header-img {
+    width: 300px;
 }
 
 
 .header-p {
     font-size: 18px;
     color: #E5E7EB;
-    
+    align-items: center;
 }
 
 .header-btn {
-    background-color: #3b82f6;
-    border: #3b82f6;;
-    color: #F9FAF8;
     width: 80px;
     height: 35px;
+    color: #F9FAF8;
+    border: #3b82f6;
     border-radius: 10px;
+    margin-top: 20px;
+    background-color: #3b82f6;
+}
 
+/* HEADER END */
+
+/* INFO START */
+
+
+.info h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.photo-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.info p {
+    text-align: center;
 }
