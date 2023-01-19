@@ -7,10 +7,11 @@ html,
 body {
     width: 100%;
     overflow-x: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* HEADER START */
+
 .header {
     background-color: #1f2937;
 }
@@ -23,6 +24,11 @@ body {
 .header-link {
     margin: 10px;
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
     color: #E5E7EB;
 }
 
@@ -83,17 +89,20 @@ ul {
 
 .header-p {
     font-size: 18px;
+    margin-top: 10px;
     color: #E5E7EB;
     align-items: center;
+    
 }
 
 .header-btn {
     width: 80px;
     height: 35px;
+    margin-top: 20px;
     color: #F9FAF8;
     border: #3b82f6;
+    font-weight: bold;
     border-radius: 10px;
-    margin-top: 20px;
     background-color: #3b82f6;
 }
 
@@ -105,9 +114,11 @@ ul {
 .info h1 {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    color: #1f2937;
 }
 .photo-grid {
+    gap: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -115,5 +126,8 @@ ul {
   }
 
 .info p {
+    display: flex;
+    color: #1f2937;
     text-align: center;
+    justify-content: center;
 }
