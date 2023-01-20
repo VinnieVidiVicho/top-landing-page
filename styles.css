@@ -12,8 +12,8 @@ body {
 
 /* HEADER START */
 .header {
-    background-color: #1f2937;
     margin-bottom: 40px;
+    background-color: #1f2937;
 }
 
 #header-logo {
@@ -28,8 +28,8 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .navbar {
@@ -113,7 +113,7 @@ ul {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
