@@ -166,3 +166,62 @@ ul {
     justify-content: flex-end;
 }
 /* QUOTE SECTION END */
+
+/* CALL TO ACTION SECTION END */
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blue-container {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #3b82f6;
+}
+
+.left {
+    width: 80%;
+    display: flex;
+    margin-left: 110px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.last-p {
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.last-btn {
+    width: 100px;
+    height: 40px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+    background-color: #3b82f6;
+
+}
+/* CALL TO ACTION SECTION END */
+
