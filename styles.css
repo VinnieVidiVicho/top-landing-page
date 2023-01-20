@@ -14,6 +14,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    margin-bottom: 40px;
 }
 
 #header-logo {
@@ -109,14 +110,15 @@ ul {
 /* HEADER END */
 
 /* INFO START */
-
-
 .info h1 {
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    font-size: 36px;
     color: #1f2937;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    justify-content: center;
 }
+
 .photo-grid {
     gap: 20px;
     width: 100%;
@@ -129,5 +131,38 @@ ul {
     display: flex;
     color: #1f2937;
     text-align: center;
+    margin-bottom: 150px;
     justify-content: center;
 }
+/* INFO END*/
+
+/* QUOTE SECTION START */
+
+.quote-section {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-section h3 {
+    font-size: 30px;
+    font-weight: 100;
+    color: #424242;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-section p {
+    display: flex;
+    font-size: 18px;
+    color: #363636;
+    margin-top: 10px;
+    margin-right: 80px;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+/* QUOTE SECTION END */
